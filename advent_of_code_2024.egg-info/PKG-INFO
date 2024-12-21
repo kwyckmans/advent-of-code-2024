@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: advent-of-code-2024
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Advent of Code 2024
+
+```
+uv pip install -e .
+```
+
+to be able to use the module

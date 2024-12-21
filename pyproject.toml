@@ -1,0 +1,26 @@
+[project]
+name = "advent-of-code-2024"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.4",
+]
+
+[tool.setuptools]
+packages = ["util"]  # Add this section to explicitly include the util package
+
+[tool.ruff]
+
+line-length = 122
+indent-width = 4
+
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["F401"]
